@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("background.png");
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.cart{
+    width: 50px;
+    cursor: pointer;
+
+}
+nav{
+    flex: 1;
+    padding-left: 50px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 15px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d23;
+}
+.content p{
+    font-size: 20px;
+    color: #6a71a6;
+}
+.content{
+    margin-top: 11%;
+    margin-left: 9%;
+}
+.content .btn{
+    display: inline;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 5px;
+    padding: 9px 18px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(93, 27, 67, 0.14);
+}
+.arrow{
+    margin: 43px;
+    display: flex;
+}
+.arrow img{
+    width:40px;
+    margin-right: 27px;
+}
+.feature{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+    margin-left: 40px;
+}
